@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Blog-Site"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "aka"
+  text: "一个产品说明"
+  tagline: 
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
+  - title: Feature 1
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
+  - title: Feature 2
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
+  - title: Feature 3
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

@@ -1,85 +1,23 @@
-# Markdown Extension Examples
+---
+title: "Why is Redis so Fast?"
+description: "Explore the key factors behind Redis's exceptional speed."
+image: "https://assets.bytebytego.com/diagrams/0422-why-is-redis-so-fast.png"
+createdAt: '2024-03-07'
+draft: false
+categories:
+  - caching-performance
+tags:
+  - "Redis"
+  - "Performance"
+---
 
-This page demonstrates some of the built-in markdown extensions provided by VitePress.
+![](https://assets.bytebytego.com/diagrams/0422-why-is-redis-so-fast.png)
 
-## Syntax Highlighting
+There are 3 main reasons as shown in the diagram above.
 
-VitePress provides Syntax Highlighting powered by [Shiki](https://github.com/shikijs/shiki), with additional features like line-highlighting:
+*   Redis is a RAM-based database. RAM access is at least 1000 times faster than random disk access.
 
-**Input**
+*   Redis leverages IO multiplexing and single-threaded execution loop for execution efficiency.
 
-````md
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-````
+*   Redis leverages several efficient lower-level data structures.
 
-**Output**
-
-```js{4}
-export default {
-  data () {
-    return {
-      msg: 'Highlighted!'
-    }
-  }
-}
-```
-
-## Custom Containers
-
-**Input**
-
-```md
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-```
-
-**Output**
-
-::: info
-This is an info box.
-:::
-
-::: tip
-This is a tip.
-:::
-
-::: warning
-This is a warning.
-:::
-
-::: danger
-This is a dangerous warning.
-:::
-
-::: details
-This is a details block.
-:::
-
-## More
-
-Check out the documentation for the [full list of markdown extensions](https://vitepress.dev/guide/markdown).
