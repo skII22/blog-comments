@@ -22,6 +22,10 @@ jobs:
 
       - name: Build project
         run: npm run docs:build  # 默认输出到 dist/
+        
+      # 确保 CNAME 文件被复制到构建输出目录
+      - name: Copy CNAME file to build directory
+        run: cp CNAME docs/.vitepress/dist/CNAME
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
