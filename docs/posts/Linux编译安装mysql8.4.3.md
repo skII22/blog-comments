@@ -2,7 +2,7 @@
 title: "Linux编译安装mysql8.4.3"
 description: "Explore the key factors behind Redis's exceptional speed."
 image: "https://assets.bytebytego.com/diagrams/0422-why-is-redis-so-fast.png"
-date: '2025-06-30'
+date: 2025-06-30T00:00:00.000Z
 draft: false
 categories:
   - caching-performance
@@ -76,7 +76,7 @@ make -j 4
 make install
 ```
 
-编译不要带	<font style="background-color:#FBDE28;">-DMYSQL_TCP_PORT=3306 \</font>	否则会指定端口为3306
+编译不要带 **`-DMYSQL_TCP_PORT=3306 \`** 否则会指定端口为3306
 
 
 
@@ -260,7 +260,7 @@ max_allowed_packet = 32M
 cp /data/apps/mysql/my.cnf /etc/my.cnf
 ```
 
-<font style="background-color:#ED740C;">如果后期需要自定义配置文件在/etc/init.d/mysql中修改conf = /aaa/bbb 即可。</font>
+**如果后期需要自定义配置文件在/etc/init.d/mysql中修改conf = /aaa/bbb 即可。**
 
 
 
@@ -335,7 +335,7 @@ grant select on zzgk.* to 'reador'@'%';
 ```
 
 ### question:
-<font style="background-color:#ECAA04;">Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR)</font>
+**Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR)**
 
 ```shell
 sudo yum install openssl-devel

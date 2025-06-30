@@ -2,7 +2,7 @@
 title: "grep强大的搜索文本功能"
 description: "Explore the key factors behind Redis's exceptional speed."
 image: "https://assets.bytebytego.com/diagrams/0422-why-is-redis-so-fast.png"
-date: '2025-06-30'
+date: 2025-06-30T00:00:00.000Z
 draft: false
 categories:
   - caching-performance

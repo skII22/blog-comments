@@ -3,8 +3,8 @@ title: "Why is Redis so Fast?"
 desc: "Explore the key factors behind Redis's exceptional speed."
 img: "https://assets.bytebytego.com/diagrams/0422-why-is-redis-so-fast.png"
 pin: false
-createdAt: '2024-03-07'
-date: '2024-03-07'
+createdAt: 2024-03-07
+date: 2024-03-07T00:00:00.000Z
 draft: false
 categories:
   - caching-performance
